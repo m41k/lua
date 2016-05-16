@@ -1,9 +1,9 @@
 #!/bin/lua
 
---##########################--
---# Created by Maik Alberto#--
---# maik.alberto@bol.com.br#--
---##########################--
+--############################--
+--# Created by Maik Alberto  #--
+--# maik.alberto@hotmail.com #--
+--############################--
 --[[
 Mods by RS 10/05/07
  Changed logic of removing duplicates from /opt/bootlocal.sh 
