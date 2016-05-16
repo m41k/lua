@@ -1,8 +1,8 @@
 #!/bin/lua
---##########################--
---# Created by Maik Alberto#--
---# maik.alberto@bol.com.br#--
---##########################--
+--############################--
+--# Created by Maik Alberto  #--
+--# maik.alberto@hotmail.com #--
+--############################--
 -- Converted to Lua 5.1/Fltk - MurgaLua - by RS 12/13/06
 -- Added code to test number of mouse buttons - RS 12/15/06
 -- Write to .mouse_config for persistence     - RS 02/15/07
@@ -53,7 +53,7 @@ vel:callback(
 )
 --#
 
---Bot„o SeleÁ„oo--
+--Bot√£o Sele√ß√£oo--
 destro_bnt = fltk:Fl_Round_Button(120,95,30,25, "Right Button")
 destro_bnt:type(fltk.FL_RADIO_BUTTON)
 destro_bnt:value(1)
@@ -63,7 +63,7 @@ canhoto_bnt = fltk:Fl_Round_Button(120,120,30,25, "Left Button") --#
 canhoto_bnt:type(fltk.FL_RADIO_BUTTON)
 canhoto_bnt:callback(set_vel)
 
---Botıes de AplicaÁ„o--
+--Bot√µes de Aplica√ß√£o--
 botao1 = fltk:Fl_Button(50,160,80,25, "&Apply")
 botao1:shortcut('a')
 botao1:callback(
